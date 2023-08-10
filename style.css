@@ -1,0 +1,74 @@
+* {
+    font-family: 'Chakra Petch', Arial;
+    font-size: 13px;
+    color: rgb(230, 230, 230);
+}
+
+.bg-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)) , url(./imgs/laptop.jpg);
+    padding: 5em 1em;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    max-width: 800px;
+}
+
+.instructor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)) , url(./imgs/markus-spiske-8OyKWQgBsKQ-unsplash.jpg);
+    padding: 5em 1em;
+}
+
+.instructor img {
+    width: 65%;
+    max-width: 300px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+}
+
+.services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)) , url(./imgs/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+    padding: 5em 1em;
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.instructor div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    * {
+        font-size: 14px
+    }
+}
+
+@media (min-width: 768px) {
+    * {
+        font-size: 15px
+    }
+
+    .instructor p {
+        width: 60%;
+    }
+
+    .instructor img {
+        width: 35%;
+    }
+}
+
+@media (min-width: 992px) {
+    * {
+        font-size: 16px
+    }
+}
